@@ -1,50 +1,38 @@
-# Screenshots
+# 🎧 Linear Media Player
 
-### 🖥️ Large screen
+A fully functional, responsive audio player built with React, Tailwind CSS, and ShadCN UI. This project demonstrates real-world media control, dynamic playlist rendering, and UI polish — designed for both desktop and mobile.
 
-<img src="./large-screen.png" alt="Large screen" width="600" />
+## 🌐 Live Demo
 
-### 📱 Small screen
+[https://linear-media-player-pearl.vercel.app/](https://linear-media-player-pearl.vercel.app/)
 
-<img src="./small-screen.png" alt="Small screen" width="300" />
+## 📸 Screenshots
 
-# Linear Media Player
+### 🖥️ Desktop View
 
-Hey, thanks for taking the time to work on this exercise. We're excited to see what you come up with –
-the goal is to create an audio player for playing a predefined playlist of audio files. Think of it
-like a stripped-down version of Spotify or the classic Winamp.
+<img src="./large-screen.png" alt="Desktop UI" width="600" />
 
-### Getting started
+### 📱 Mobile View
 
-Clone this repo which was created _just for you_, make it yours and let us know once the project is complete by pushing
-your commits and replying through email.
+<img src="./small-screen.png" alt="Mobile UI" width="300" />
 
-You can use `npm` to install the dependencies and run the basic React project. Feel free to add any additional libraries
-or frameworks you need.
+## 🚀 Highlights
 
-```bash
-npm install
-npm run dev
-```
+- 🎵 Dynamic playlist loading from structured JSON
+- ⏯️ Play/pause, skip tracks, and manual seek
+- 📈 Real-time progress bar synced with audio
+- 🔊 Volume control with slider
+- 🔄 Auto-play on track and playlist changes
+- 🎹 Keyboard controls (`Space` to play/pause)
+- 📱 Fully responsive layout
+- 💅 Styled with Tailwind CSS and animated with Motion
+- 🧩 Component-based architecture using ShadCN UI
 
-### Requirements
+## 🛠 Tech Stack
 
-We'd like to see a working media player that can play through a playlist of audio files (included), display info on the
-currently playing track and supporting basic functionality like play/pause, next track, etc. Beyond that, feel free to get
-creative with the design and functionality.
-
-Plan on spending 2-4 hours to complete this exercise.
-
-Please update this README to include a screenshot of the completed exercise at the top.
-
-### Playlist data
-
-The playlist data is stored in `src/data/playlists.json`. It includes a list of audio files and some associated metadata,
-you can import the json file directly with no need for network requests.
-
-### Attribution
-
-This project includes music from the following albums:
-
-- **"Deep House"** by _Nul Tiel Records_ is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-- **"Neither and Both"** by _Brylie Christopher Oxley_ is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+| Area           | Tools                                      |
+| -------------- | ------------------------------------------ |
+| **Frontend**   | React, TypeScript, Tailwind CSS, ShadCN UI |
+| **Animations** | Motion                                     |
+| **Deployment** | Vercel                                     |
+| **Audio APIs** | Native HTMLAudioElement, React Refs        |
