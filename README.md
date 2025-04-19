@@ -2,11 +2,11 @@
 
 ### 🖥️ Large screen
 
-![Large screen](./large-screen.png)
+<img src="./large-screen.png" alt="Large screen" width="600" />
 
 ### 📱 Small screen
 
-![Small screen](./small-screen.png)
+<img src="./small-screen.png" alt="Small screen" width="300" />
 
 # Linear Media Player
 
