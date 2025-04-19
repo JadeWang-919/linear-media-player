@@ -1,3 +1,13 @@
+# Screenshots
+
+### 🖥️ Large screen
+
+![Large screen](./large-screen.png)
+
+### 📱 Small screen
+
+![Small screen](./small-screen.png)
+
 # Linear Media Player
 
 Hey, thanks for taking the time to work on this exercise. We're excited to see what you come up with –
@@ -7,9 +17,9 @@ like a stripped-down version of Spotify or the classic Winamp.
 ### Getting started
 
 Clone this repo which was created _just for you_, make it yours and let us know once the project is complete by pushing
-your commits and replying through email. 
+your commits and replying through email.
 
-You can use `npm` to install the dependencies and run the basic React project. Feel free to add any additional libraries 
+You can use `npm` to install the dependencies and run the basic React project. Feel free to add any additional libraries
 or frameworks you need.
 
 ```bash
